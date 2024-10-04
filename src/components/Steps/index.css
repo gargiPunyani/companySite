@@ -1,0 +1,12 @@
+.titleSteps {
+    line-height: 1.3 !important;
+}
+@media (max-width: 768px) {
+    .allCardsBatch {
+        display: grid !important;
+        grid-template-columns: 1fr !important;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+}

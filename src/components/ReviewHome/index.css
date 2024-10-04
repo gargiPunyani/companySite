@@ -1,0 +1,22 @@
+.reviewImageSection {
+    width: 1700px;
+}
+.reviewImageSection {
+    display: block;
+}
+.reviewImageReviews {
+    position: absolute;
+}
+
+@media (max-width: 768px) {
+    .reviewImageSection {
+        display: none;
+    }
+    .reviewImageReviews {
+        position: relative !important;
+        width: 90% !important;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+}

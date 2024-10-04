@@ -1,0 +1,6 @@
+.allItemsCircle {
+    background-image: url('../../../public/tech-bg.webp');
+    background-repeat: no-repeat;
+    min-height: 90vh;
+    top: 0px !important;
+}

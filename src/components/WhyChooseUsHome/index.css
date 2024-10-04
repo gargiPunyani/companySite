@@ -1,0 +1,15 @@
+
+.whyChooseUsLogo {
+    width: 100%;
+}
+@media (max-width: 768px) {
+    .whyChooseHome {
+        /* display: flex;
+        flex-direction: column-reverse; */
+        background-size: 100% 100%;
+    }
+    .whyChooseUsLogo {
+        width: 70%;
+        margin: 0 auto;
+    }
+}

@@ -1,0 +1,29 @@
+.bg-wavy-pattern {
+  position: relative;
+  background-image: url("../../../public/service_card_bg.png");
+  background-size: cover;
+  background-repeat: repeat;
+  background-position: center;
+}
+.service-card {
+  transition: color 0.5s ease, background-color 0.5s ease;
+}
+
+.service-card-hovered .service-icon {
+  transition: background-color 0.5s ease, color 0.5s ease;
+  background-color: white;
+  color: black;
+}
+
+.service-card-hovered .service-text {
+  transition: color 0.5s ease;
+  color: white;
+}
+
+.service-icon {
+  transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+.service-text {
+  transition: color 0.5s ease;
+}

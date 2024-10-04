@@ -1,0 +1,15 @@
+
+.serviceKeyFeatures {
+    display: flex;
+    flex-direction: row;
+}
+.serviceKeyFeatures:nth-child(even) {
+    display: flex;
+    flex-direction: row-reverse;
+}
+@media (max-width: 768px) {
+    .serviceKeyFeatures {
+        display: flex;
+        flex-direction: column !important;
+    }
+}

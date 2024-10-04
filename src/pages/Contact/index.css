@@ -1,0 +1,25 @@
+.contactUsMainContainer {
+
+}
+
+.heroSectionContactUs {
+    background-image: url('/public/bg-patter-new-min-1.png');
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+.supportSection247 {
+    background-image: url('/public/bg-half.png');
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+@media (max-width: 768px) {
+    .heroSectionContactUs {
+        background-size: 100% 100%;
+    }
+    .supportSection247 {
+        background-size: 100% 100%;
+    }
+    .contactUsFormPage {
+        background-size: 100% 100%;
+    }
+}
